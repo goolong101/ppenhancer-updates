@@ -1,12 +1,12 @@
 {
-  "version": "0.2.0",
-  "release_tag": "v0.2.0",
+  "version": "0.2.1",
+  "release_tag": "v0.2.1",
   "generated": "2026-07-07",
   "channel": "stable",
-  "notes": "Attract-breath rotator fix (Scared Stiff spider no longer fades while spinning) + high-score toast fireworks. Also SysInfo layer, CPU temp, launcher PC/fsck cleanup, boot recovery triggers.",
-  "download_base": "https://github.com/goolong101/ppenhancer-updates/releases/download/v0.2.0",
+  "notes": "Renderer rebuild: leaderboard shows 'NOT IN TOP 50 - PLAY A GAME!!' when the cabinet's score is off the board. Includes v0.2.0 (spider fade fix + toast fireworks). Only pinnerpi_sdl changed vs v0.2.0.",
+  "download_base": "https://github.com/goolong101/ppenhancer-updates/releases/download/v0.2.1",
   "artifacts": [
-    { "asset": "pinnerpi_sdl",           "dest": "build/pinnerpi_sdl",          "md5": "d7a54867574222e5469848f2c3eab8a3", "size": 2852072, "exec": true },
+    { "asset": "pinnerpi_sdl",           "dest": "build/pinnerpi_sdl",          "md5": "21ac3747f8ae1a718d8e9459a7282d93", "size": 2852264, "exec": true },
     { "asset": "pinnerpi_power_daemon",  "dest": "build/pinnerpi_power_daemon", "md5": "bade9bb3a574403fe3ddac6ed9795807", "size": 79504,   "exec": true },
     { "asset": "commands.json",          "dest": "commands.json",               "md5": "5ad863f6859f9fe1ea7c1c6a23ce2aba", "size": 7064 },
     { "asset": "pinball_tables.json",    "dest": "pinball_tables.json",         "md5": "f682536128807811c43bda3109a5191b", "size": 29856 },
