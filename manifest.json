@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "release_tag": "v0.2.0",
+  "generated": "2026-07-07",
+  "channel": "stable",
+  "notes": "Attract-breath rotator fix (Scared Stiff spider no longer fades while spinning) + high-score toast fireworks. Also SysInfo layer, CPU temp, launcher PC/fsck cleanup, boot recovery triggers.",
+  "download_base": "https://github.com/goolong101/ppenhancer-updates/releases/download/v0.2.0",
+  "artifacts": [
+    { "asset": "pinnerpi_sdl",           "dest": "build/pinnerpi_sdl",          "md5": "d7a54867574222e5469848f2c3eab8a3", "size": 2852072, "exec": true },
+    { "asset": "pinnerpi_power_daemon",  "dest": "build/pinnerpi_power_daemon", "md5": "bade9bb3a574403fe3ddac6ed9795807", "size": 79504,   "exec": true },
+    { "asset": "commands.json",          "dest": "commands.json",               "md5": "5ad863f6859f9fe1ea7c1c6a23ce2aba", "size": 7064 },
+    { "asset": "pinball_tables.json",    "dest": "pinball_tables.json",         "md5": "f682536128807811c43bda3109a5191b", "size": 29856 },
+    { "asset": "global_effects.json",    "dest": "global_effects.json",         "md5": "ccf37644a1a4379f0422c38a8a38e6d6", "size": 58 },
+    { "asset": "pinnerpi-launcher.sh",   "dest": "pinnerpi-launcher.sh",        "md5": "f351e7ecaee80c965dc0beeaa9387c88", "size": 20946, "exec": true },
+    { "asset": "usb-serial-gadget.sh",   "dest": "usb-serial-gadget.sh",        "md5": "d28b673735a4aafa931fc6e39fae7bdc", "size": 3175,  "exec": true },
+    { "asset": "generate_manifest.sh",   "dest": "generate_manifest.sh",        "md5": "b3f1479a08771e571d8ab09451bb9e54", "size": 1987,  "exec": true }
+  ]
+}
