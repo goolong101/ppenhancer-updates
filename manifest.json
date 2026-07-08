@@ -1,17 +1,18 @@
 {
-  "version": "0.2.1",
-  "release_tag": "v0.2.1",
-  "generated": "2026-07-07",
+  "version": "0.2.2",
+  "release_tag": "v0.2.2",
+  "generated": "2026-07-08",
   "channel": "stable",
-  "notes": "Renderer rebuild: leaderboard shows 'NOT IN TOP 50 - PLAY A GAME!!' when the cabinet's score is off the board. Includes v0.2.0 (spider fade fix + toast fireworks). Only pinnerpi_sdl changed vs v0.2.0.",
-  "download_base": "https://github.com/goolong101/ppenhancer-updates/releases/download/v0.2.1",
+  "notes": "WiFi manageable via SD-card edit, boot, and OPi5 web GUI (serial MSG_SET_WIFI); apply_wifi.sh unifies the apply path; table-0 panel shows WiFi state (not configured / SSID / not connected + reason). Adds apply_wifi.sh. Includes leaderboard off-board prompt (v0.2.1) + spider fix + toast fireworks (v0.2.0).",
+  "download_base": "https://github.com/goolong101/ppenhancer-updates/releases/download/v0.2.2",
   "artifacts": [
-    { "asset": "pinnerpi_sdl",           "dest": "build/pinnerpi_sdl",          "md5": "21ac3747f8ae1a718d8e9459a7282d93", "size": 2852264, "exec": true },
-    { "asset": "pinnerpi_power_daemon",  "dest": "build/pinnerpi_power_daemon", "md5": "bade9bb3a574403fe3ddac6ed9795807", "size": 79504,   "exec": true },
+    { "asset": "pinnerpi_sdl",           "dest": "build/pinnerpi_sdl",          "md5": "babff8e7984288d49d592844aeef0c82", "size": 2852264, "exec": true },
+    { "asset": "pinnerpi_power_daemon",  "dest": "build/pinnerpi_power_daemon", "md5": "5f90ebceeb9b14c281c1ef6d716228cd", "size": 79928,   "exec": true },
+    { "asset": "apply_wifi.sh",          "dest": "apply_wifi.sh",               "md5": "edf4373da60ef83757967b2e6ba06331", "size": 3505,  "exec": true },
+    { "asset": "pinnerpi-launcher.sh",   "dest": "pinnerpi-launcher.sh",        "md5": "a46f86fb5166f8260d288cef17375ed9", "size": 20212, "exec": true },
     { "asset": "commands.json",          "dest": "commands.json",               "md5": "5ad863f6859f9fe1ea7c1c6a23ce2aba", "size": 7064 },
     { "asset": "pinball_tables.json",    "dest": "pinball_tables.json",         "md5": "f682536128807811c43bda3109a5191b", "size": 29856 },
     { "asset": "global_effects.json",    "dest": "global_effects.json",         "md5": "ccf37644a1a4379f0422c38a8a38e6d6", "size": 58 },
-    { "asset": "pinnerpi-launcher.sh",   "dest": "pinnerpi-launcher.sh",        "md5": "f351e7ecaee80c965dc0beeaa9387c88", "size": 20946, "exec": true },
     { "asset": "usb-serial-gadget.sh",   "dest": "usb-serial-gadget.sh",        "md5": "d28b673735a4aafa931fc6e39fae7bdc", "size": 3175,  "exec": true },
     { "asset": "generate_manifest.sh",   "dest": "generate_manifest.sh",        "md5": "b3f1479a08771e571d8ab09451bb9e54", "size": 1987,  "exec": true }
   ]
